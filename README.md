@@ -132,15 +132,15 @@ print("Log inserted successfully")
 
 ### DynamoDB Table
 
-![DynamoDB Table](screenshots/dynamodb-table.png)
+![DynamoDB Table](screenshot/dynamodb-table.png)
 
 ### EventBridge Pipe
 
-![EventBridge Pipe](screenshots/eventbridge-pipe.png)
+![EventBridge Pipe](screenshot/EventBridgePipe.png)
 
 ### Email Notification
 
-![Email Alert](screenshots/email-alert.png)
+![Email Alert](screenshot/email-alert.png)
 
 ---
 
@@ -175,7 +175,6 @@ aws-event-driven-alerting-system/
 ---
 
 ## 👨‍💻 Author
-Yashwardhan Rathaur
 
 **Yashwardhan Rathaur**
 
