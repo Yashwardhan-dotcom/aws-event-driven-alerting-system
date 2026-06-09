@@ -10,26 +10,11 @@ The solution leverages DynamoDB Streams, EventBridge Pipes, and Amazon SNS to cr
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
-```text
-Python (boto3)
-      │
-      ▼
-Amazon DynamoDB
-      │
-      ▼
-DynamoDB Streams
-      │
-      ▼
-EventBridge Pipes
-      │
-      ▼
-Amazon SNS
-      │
-      ▼
-Email Notifications
-```
+![Architecture](architecture/architecture-diagram.png)
+
+The application running on an EC2 instance inserts log records into Amazon DynamoDB using boto3. DynamoDB Streams capture data changes, which are processed by Amazon EventBridge Pipes and forwarded to an Amazon SNS Topic. SNS then delivers real-time email notifications to subscribers.
 
 ---
 
