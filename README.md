@@ -1,5 +1,5 @@
 # aws-event-driven-alerting-system
-How can critical application events automatically trigger alerts without constantly polling a database?
+Real-Time Cloud Alerting System using DynamoDB Streams, EventBridge Pipes, SNS, and Python (boto3)
 # 🚀 Real-Time Cloud Alerting System on AWS
 
 ## 📌 Overview
